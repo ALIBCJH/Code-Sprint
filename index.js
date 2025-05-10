@@ -6,3 +6,5 @@ const products = (phone, tablets, laptops) => {
 
     }
 }
+
+console.log(products("iPhone", "iPad", "MacBook"));
