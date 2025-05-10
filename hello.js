@@ -9,3 +9,10 @@ const addNumbers = (x, y){
 ;}
 const ressults = addNumbers(5,10);
 console.log(results);
+
+const votingAge = 18;
+const agev = 20;
+
+//using ternary operator
+const canVote = agev >= votingAge ? "you can vote" : "You can vote";
+console.log(canVote);
